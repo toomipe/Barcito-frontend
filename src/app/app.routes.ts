@@ -30,10 +30,11 @@ export const routes: Routes = [
     {
         path: "",
         component: Home
-    },
+    }/*,
     {
-        path: "categoria/:categoriaID",
-        component: CategoriaC
-    }
+        path: 'categoria/:categoriaID',
+        component: CategoriaC,
+        data: { renderMode: 'client' } // evita prerendering
+    }*/
 ];
 
